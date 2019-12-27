@@ -1,0 +1,10 @@
+# Spring properties
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      uri: mongodb://localhost/EmployeeDB
+# HTTP Server
+server:
+  port: 8090   # HTTP (Tomcat) port
