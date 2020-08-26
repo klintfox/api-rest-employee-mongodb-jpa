@@ -2,9 +2,15 @@
 spring:
   data:
     mongodb:
-      host: localhost
+      auto-index-creation: false
+      authentication-database: admin
+      username: admin
+      password: mongodb
+      database: employeeDB
       port: 27017
-      uri: mongodb://localhost/EmployeeDB
+      host: 0.0.0.0
+      #      uri: mongodb://localhost:27017/employeeDB
+
 # HTTP Server
 server:
-  port: 8090   # HTTP (Tomcat) port
+  port: 8092
