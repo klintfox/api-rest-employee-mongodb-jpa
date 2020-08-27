@@ -18,9 +18,9 @@ Servicio de ejemplo utilizando las siguietes tecnologias
   - Body
     ```sh  
      {
-    "firstName":"klint Fitzgerald",
-    "lastName":"roman",
-    "emailId":"klint_f@hotmail.com"
+        "firstName":"klint Fitzgerald",
+        "lastName":"roman",
+        "emailId":"klint_f@hotmail.com"
     }
     ```
 - UPDATE
@@ -28,9 +28,9 @@ Servicio de ejemplo utilizando las siguietes tecnologias
   - Body
     ```sh
     {
-    "firstName":"klint Fitzgerald",
-    "lastName":"roman",
-    "emailId":"klint_f@hotmail.com"
+        "firstName":"klint",
+        "lastName":"roman",
+        "emailId":"klint_f@hotmail.com"
     }
     ```
 - DELETE
