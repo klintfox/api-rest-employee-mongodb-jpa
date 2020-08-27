@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.springboot.crud</groupId>
-	<artifactId>sprinboot-mongodb</artifactId>
+	<artifactId>sprinboot-mongo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sprinboot-mongodb</name>
-	<description>Easy demo project for Spring Boot and Mongodb</description>
+	<name>ws-rest-mongo</name>
+	<description>rest service using mongodb and docker</description>
 
 	<properties>
 		<java.version>1.8</java.version>
